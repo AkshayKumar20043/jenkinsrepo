@@ -17,7 +17,7 @@ pipeline {
         
         stage('Code Analysis') {
             steps {
-                echo 'Running and analysing code using SonarQube'
+                echo 'Running and analysing the code using SonarQube'
             }
         }
         
