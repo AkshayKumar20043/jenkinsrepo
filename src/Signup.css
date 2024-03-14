@@ -1,0 +1,63 @@
+.signup
+{
+    margin-left: 10.1%;
+    width: 31.5%;
+}
+
+.signup2
+{
+    margin-left: 10.5%;
+    width: 31.5%;
+    margin-top: 2.3%;
+}
+
+.signup3
+{
+    margin-left: 7.9%;
+    width: 31.5%;
+    margin-top: 2.3%;
+}
+
+.signup4
+{
+    margin-left: 2.3%;
+    width: 31.5%;
+    margin-top: 2.3%;
+}
+
+.button3
+{
+    width:32.5%;
+    margin-left: 14.5%;
+    background-color: rgb(42, 42, 255);
+    color: white;
+    height: 32px;
+    margin-top: 2.4%;
+}
+
+.heading2
+{
+    color: rgb(70, 70, 255);
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+
+.header5
+{
+    margin-left: 430px;
+    margin-top: 140px;
+}
+
+.text7
+{
+    margin-top: 30%;
+}
+
+.error
+{
+    margin-left: 18%;
+    margin-right: 62%;
+    margin-bottom: 2%;
+    border: 2px red solid;
+}
+

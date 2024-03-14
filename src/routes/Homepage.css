@@ -1,0 +1,29 @@
+.new
+{
+    background-color: rgb(232, 232, 232);
+    font-size: 25px;
+    padding-bottom: 0.4%;
+    margin-top: 0.4%;
+}
+
+.text
+{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.text2
+{
+    padding-left: 2%;
+}
+
+.text3
+{
+    color:black;
+}
+
+.box
+{
+    width: 50%;
+    height: 21px;
+}

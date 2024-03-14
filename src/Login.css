@@ -1,0 +1,49 @@
+.input3
+{
+    margin-top: 0.7%;
+    width: 31.5%;
+}
+
+.input4
+{
+    margin-top: 0.7%;
+    width: 31.5%;
+}
+
+.button2
+{
+    background-color: rgb(29, 29, 246);
+    width: 32.3%;
+    margin-top: 2%;
+    height: 30px;
+    color: white;
+}
+
+.sign
+{
+    border: 2px rgb(55, 55, 255) solid;
+    color:rgb(58, 58, 250);
+    margin-left: 20%;
+    background-color: rgb(252, 252, 252);
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.sign2
+{
+    color:blue;
+}
+
+.cont
+{
+    margin-left: 600px;
+    margin-top: 200px;
+}
+
+.err3
+{
+    border: 2px red solid;
+    margin-left: 5%;
+    margin-right: 74%;
+}
+
