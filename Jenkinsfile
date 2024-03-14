@@ -4,57 +4,57 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building the code using Maven...'
+                echo 'Bulilding the code(Maven)'
             }
         }
         
         stage('Unit and Integration Tests') {
             steps {
-                echo 'Running unit tests...'
-                echo 'Running integration tests...'
+                echo 'Running unit test to ensure code.'
+                echo 'Running test for integration'
             }
         }
         
         stage('Code Analysis') {
             steps {
-                echo 'Running code analysis using SonarQube...'
+                echo 'Running and analysing code using SonarQube'
             }
         }
         
         stage('Security Scan') {
             steps {
-                echo 'Performing security scan using OWASP ZAP...'
+                echo 'Scannign security by OWASP ZAP...'
             }
         }
         
         stage('Deploy to Staging') {
             steps {
-                echo 'Deploying the application to staging server (e.g., AWS EC2 instance)...'
+                echo 'Deploying the application'
             }
         }
         
         stage('Integration Tests on Staging') {
             steps {
-                echo 'Running integration tests on staging environment...'
+                echo 'Running integration tests'
             }
         }
         
         stage('Deploy to Production') {
             steps {
-                echo 'Deploying the application to production server (e.g., AWS EC2 instance)...'
+                echo 'Trying to deplay the application'
             }
         }
     }
     post {
         success {
             emailext subject: "Pipeline '${currentBuild.fullDisplayName}' Successful",
-                      body: 'The build was successful. Congratulations!',
+                      body: 'The building is successful',
                       to: 'ak5559338@gmail.com',
                       attachLog: true
         }
         failure {
             emailext subject: "Pipeline '${currentBuild.fullDisplayName}' Failed",
-                      body: 'The build has failed. Please investigate.',
+                      body: 'The building has been failed unfortunately, check it again',
                       to: 'ak5559338@gmail.com',
                       attachLog: true
         }
