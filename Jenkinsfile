@@ -35,7 +35,7 @@ pipeline {
         
         stage('Integration Tests on Staging') {
             steps {
-                echo 'Running integration tests'
+                echo 'Running git integration tests'
             }
         }
         
