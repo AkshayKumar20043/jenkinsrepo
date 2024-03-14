@@ -29,7 +29,7 @@ pipeline {
         
         stage('Deploy to Staging') {
             steps {
-                echo 'Deploying the application'
+                echo 'Trying to deply the application'
             }
         }
         
