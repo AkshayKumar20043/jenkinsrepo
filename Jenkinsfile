@@ -11,7 +11,7 @@ pipeline {
         stage('Unit and Integration Tests') {
             steps {
                 echo 'Running unit test to ensure code.'
-                echo 'Running test for integration'
+                echo 'Running test for ensuring integration'
             }
         }
         
@@ -49,13 +49,13 @@ pipeline {
         success {
             emailext subject: "Pipeline '${currentBuild.fullDisplayName}' Successful",
                       body: 'The building is successful',
-                      to: 'ak5559338@gmail.com',
+                      to: 'akshay226718@gmail.com',
                       attachLog: true
         }
         failure {
             emailext subject: "Pipeline '${currentBuild.fullDisplayName}' Failed",
                       body: 'The building has been failed unfortunately, check it again',
-                      to: 'ak5559338@gmail.com',
+                      to: 'akshay226718@gmail.com',
                       attachLog: true
         }
     }
